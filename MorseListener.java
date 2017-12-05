@@ -101,9 +101,9 @@ class MorseListener {
 				zeros++;
 			} while ((stream.peek() == 0) && (stream.size() != 0));
 			
-			if (zeros == 3) // the amount of wait units between letters
+			if (zeros == 1) // the amount of wait units between letters
 				return "";
-			if (zeros == 7) // the amount of wait units between words 
+			if (zeros == 2) // the amount of wait units between words 
 				return " "; // insert a space
 		}
 		
