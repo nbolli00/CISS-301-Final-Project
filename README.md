@@ -1,5 +1,7 @@
 # CISS-301-Final-Project
 
+Take "dots", "dashes", and "waits" to simulate morse code, and translate it into English.
+
 MorseGUI class should take user input in the form of button presses to call methods from MorseListener, which decodes Morse Code strokes as english characters and spaces. 
 
 # MorseListener.java
